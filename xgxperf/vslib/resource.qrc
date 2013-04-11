@@ -1,0 +1,38 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>../images/vs/videocamera_03.gif</file>
+        <file>../images/vs/background2_03.gif</file>
+        <file>../images/vs/background3_03.gif</file>
+        <file>../images/vs/background4_03.gif</file>
+        <file>../images/vs/background_03.gif</file>
+        <file>../images/vs/button_circle.jpg</file>
+        <file>../images/vs/camera-button_03.gif</file>
+        <file>../images/vs/cam-flow_03.gif</file>
+        <file>../images/vs/cascade-button_03.gif</file>
+        <file>../images/vs/computer-button_03.gif</file>
+        <file>../images/vs/exit-button_03.gif</file>
+        <file>../images/vs/expand-button_03.gif</file>
+        <file>../images/vs/forward-playbackbutton_03.gif</file>
+        <file>../images/vs/four-button_03.gif</file>
+        <file>../images/vs/generalbutton_03.gif</file>
+        <file>../images/vs/help-button_03.gif</file>
+        <file>../images/vs/logo.jpg</file>
+        <file>../images/vs/moviereel_03.gif</file>
+        <file>../images/vs/nine-button_03.gif</file>
+        <file>../images/vs/notes-button_03.gif</file>
+        <file>../images/vs/options-button_03.gif</file>
+        <file>../images/vs/pause-playbackbutton_03.gif</file>
+        <file>../images/vs/play-button_03.gif</file>
+        <file>../images/vs/play-playbackbutton_03.gif</file>
+        <file>../images/vs/reverse-playbackbutton_03.gif</file>
+        <file>../images/vs/single-button_03.gif</file>
+        <file>../images/vs/sixteen-button_03.gif</file>
+        <file>../images/vs/speaker-button_03.gif</file>
+        <file>../images/vs/stop-playbackbutton_03.gif</file>
+        <file>../images/vs/ti_icon.jpg</file>
+      <file>../images/sunset.PNG</file>
+      <file>../images/vs/sun1.jpg</file>
+      <file>../images/vs/sun2.jpg</file>
+      <file>../images/vs/sun3.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,54 @@
+ 
+ LiveMem QScreen driver for Qt Embedded
+ ******************************************
+ This Screen Driver for Qt/Embedded allows systems that do not have a 
+ natively supported output interface (ex, with no FrameBuffer), to use a
+ file as a screen surface. The file can be read to see the output of 
+ rendering operations.
+
+ Depends on Qt/e only. Tested on Qt4.6.x
+
+ Current Status - "Alpha". See TODO list.
+
+ HOW TO INTEGRATE INTO QT BUILD:
+ >>cd <QTDIR>/src/plugins/gfxdrivers
+ >>cp -rf <downloads>/livemem ./
+ >>cp -rf <downloads>/gfxdrivers.pro ./
+ >>make
+ >>make install
+ >>ls -l <QTDIR>/plugins/gfxdrivers/libqscreenlivemem.so
+
+ HOW TO TEST:
+ 1. Create a file /opt/livemem/livemem.bin
+ 2. Build and install the livemem driver as specified in Integration steps
+ 3. Set livemem as screen driver like below, at runtime:
+ >> "calculator -qws -display livemem"
+ 4. Stop the application and see the output in Irfanview or other editor.
+
+ The output of all screen painting operations by Qt, goes to the file 
+ LIVEMEM_DEVICE_NAME.
+
+ This file can be opened in any image editor and viewed, setting the appropriate
+ w,h, and bpp.
+
+ Irfanview settings for viewing the default output are in 
+ livemem_irfanview_setting.JPG file in this directory.
+
+ DEFAULTS:
+ Output file name - /opt/livemem/livemem.bin
+ w = 480, h = 640, bpp = 16
+
+ TODO:
+ -A saner way of passing file device name,screen parameters to driver 
+ than hardcoding it.
+ -Add livemem to Qt config itself, than hardcoding into gfxdrivers.pro
+ -Add caching support
+ -Rotation not handled
+ -Cursor not tested
+ -Performance not tested
+ -Not tested with client only applications
+
+ https://gforge.ti.com/gf/project/gleslayer/
+ 
+ prabu@ti.com
+ Apr 2010

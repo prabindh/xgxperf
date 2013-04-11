@@ -1,0 +1,9 @@
+<!DOCTYPE RCC><RCC version="1.0">
+<qresource>
+    <file>../../images/launcher/0.PNG</file>
+    <file>../../images/launcher/1.PNG</file>
+    <file>../../images/launcher/4.PNG</file>
+    <file>../../images/launcher/5.PNG</file>
+    <file>../../images/launcher/6.PNG</file>                
+</qresource>
+</RCC>

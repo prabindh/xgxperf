@@ -1,0 +1,27 @@
+<RCC>
+    <qresource prefix="/" >    
+      <file>../images/svg/fan.svg</file>
+      <file>../images/svg/boiler.svg</file>
+      <file>../images/svg/boiler1.svg</file>
+      <file>../images/svg/meter.svg</file>
+      <file>../images/svg/valve2.svg</file>
+      <file>../images/svg/pipe.svg</file>
+      <file>../images/svg/l_bend.svg</file>
+      <file>../images/svg/needle.svg</file>
+      <file>../images/svg/arrow.svg</file>      
+      <file>../images/exhaust.PNG</file>
+      <file>../images/24_exhaust.PNG</file>      
+      <file>../images/100_50_gradient.PNG</file>
+      <file>../images/50_50_gradient.PNG</file>
+      <file>../images/vs/help-button_03.gif</file>
+      <file>../images/valve1.PNG</file>
+      <file>../images/industrial_title.PNG</file>
+      <file>../images/next.PNG</file>
+      <file>../images/log.PNG</file>
+      <file>../images/cpanel.PNG</file>
+      <file>../images/prev.PNG</file>    
+      <file>../images/switch.PNG</file>      
+    </qresource>                                                                                        
+</RCC>
+
+ 

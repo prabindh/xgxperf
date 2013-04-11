@@ -1,0 +1,24 @@
+TEMPLATE = lib
+TARGET = qscreenlivemem
+
+isEmpty(QT_MAJOR_VERSION) {
+   VERSION=4.6.2
+} else {
+   VERSION=$${QT_MAJOR_VERSION}.$${QT_MINOR_VERSION}.$${QT_PATCH_VERSION}
+}
+CONFIG += qt plugin
+
+DEFINES += QT_QWS_LIVEMEM
+
+QMAKE_TARGET_COMPANY = Texas Instruments
+QMAKE_TARGET_PRODUCT = Qt4
+QMAKE_TARGET_DESCRIPTION = livemem
+QMAKE_TARGET_COPYRIGHT = empty
+
+SOURCES	= main.cpp \
+	qscreenlivemem.cpp
+
+target.path=$$[QT_INSTALL_PLUGINS]
+INSTALLS += target
+
+

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:osb="http://www.openswatchbook.org/uri/2009/osb"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="84.162582"
+   height="204.34862"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="boiler1.svg">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient5671"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5673" />
+    </linearGradient>
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective5649" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5603">
+      <stop
+         style="stop-color:#5d8000;stop-opacity:1;"
+         offset="0"
+         id="stop5605" />
+      <stop
+         style="stop-color:#5d8000;stop-opacity:0;"
+         offset="1"
+         id="stop5607" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5565"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop5567" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5460">
+      <stop
+         style="stop-color:#808000;stop-opacity:1;"
+         offset="0"
+         id="stop5462" />
+      <stop
+         style="stop-color:#808000;stop-opacity:0;"
+         offset="1"
+         id="stop5464" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5452"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#808000;stop-opacity:1;"
+         offset="0"
+         id="stop5454" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5436"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#808000;stop-opacity:1;"
+         offset="0"
+         id="stop5438" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient5211"
+       osb:paint="solid">
+      <stop
+         style="stop-color:#808000;stop-opacity:1;"
+         offset="0"
+         id="stop5213" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3755"
+       osb:paint="gradient">
+      <stop
+         style="stop-color:#808000;stop-opacity:1;"
+         offset="0"
+         id="stop3757" />
+      <stop
+         style="stop-color:#808000;stop-opacity:0;"
+         offset="1"
+         id="stop3759" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient5603"
+       id="linearGradient5613"
+       x1="242.76378"
+       y1="766.64795"
+       x2="525.80762"
+       y2="766.64795"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.29780197,0,0,0.25586148,-69.459915,785.22938)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.0547013"
+     inkscape:cx="41.307836"
+     inkscape:cy="103.53522"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1323"
+     inkscape:window-height="874"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       position="459.9573,0.81447716"
+       orientation="0,744.09448"
+       id="guide5550" />
+    <sodipodi:guide
+       position="741.19464,3.67162"
+       orientation="-1052.3622,0"
+       id="guide5552" />
+    <sodipodi:guide
+       position="741.19464,1056.0338"
+       orientation="0,-744.09448"
+       id="guide5554" />
+    <sodipodi:guide
+       position="-2.899834,1056.0338"
+       orientation="1052.3622,0"
+       id="guide5556" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-2.899834,-851.68517)">
+    <rect
+       style="fill:url(#linearGradient5613);fill-opacity:1;stroke:#000000;stroke-width:1.6288904;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5558"
+       width="82.533691"
+       height="147.66862"
+       x="3.7142792"
+       y="907.55072"
+       ry="17.04208" />
+    <rect
+       style="fill:#5d8000;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5637"
+       width="40.506268"
+       height="54.609131"
+       x="24.571442"
+       y="852.48517"
+       ry="9.9766674"
+       rx="0" />
+    <rect
+       style="fill:#5d8000;fill-opacity:1;stroke:#000000;stroke-width:1.60000002;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="rect5647"
+       width="63.787998"
+       height="13.102515"
+       x="13.714287"
+       y="872.11682"
+       ry="6.5512576" />
+    <text
+       xml:space="preserve"
+       style="font-size:18px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       x="-1017.7786"
+       y="50.925781"
+       id="text5667"
+       sodipodi:linespacing="125%"
+       transform="matrix(0,-1,1,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan5669"
+         x="-1017.7786"
+         y="50.925781">BOILER</tspan></text>
+  </g>
+</svg>

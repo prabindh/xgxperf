@@ -1,0 +1,1259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>8</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>      Hybrid Security Digital Video Decoder Demo</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="resource.qrc">
+    <normaloff>:/images/vs/ti_icon.jpg</normaloff>:/images/vs/ti_icon.jpg</iconset>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <widget class="QWidget" name="centralWidget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>581</height>
+    </rect>
+   </property>
+   <widget class="QGroupBox" name="groupBox_3">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>800</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string>background-image: url(:/images/vs/background_03.gif);</string>
+    </property>
+    <property name="title">
+     <string/>
+    </property>
+    <widget class="QPushButton" name="playBackImgpushButton_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>40</x>
+       <y>20</y>
+       <width>42</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/videocamera_03.gif</normaloff>:/images/vs/videocamera_03.gif</iconset>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>42</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CameraViewImg1pushButton">
+     <property name="geometry">
+      <rect>
+       <x>180</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="toolTip">
+      <string>Layout 1x1</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/single-button_03.gif</normaloff>:/images/vs/single-button_03.gif</iconset>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CameraViewImg2pushButton">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Layout 2x2</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/four-button_03.gif</normaloff>:/images/vs/four-button_03.gif</iconset>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CameraViewImg4pushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/nine-button_03.gif</normaloff>:/images/vs/nine-button_03.gif</iconset>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="CameraViewImg5pushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/sixteen-button_03.gif</normaloff>:/images/vs/sixteen-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="vsmImgpushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>430</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/nine-button_03.gif</normaloff>:/images/vs/nine-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="addEditCameraImgpushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>470</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/camera-button_03.gif</normaloff>:/images/vs/camera-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="displaypushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>550</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/expand-button_03.gif</normaloff>:/images/vs/expand-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="volumeImgpushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>600</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/speaker-button_03.gif</normaloff>:/images/vs/speaker-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="settingImgpushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>640</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/options-button_03.gif</normaloff>:/images/vs/options-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_10">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>680</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/computer-button_03.gif</normaloff>:/images/vs/computer-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_7">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>720</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/help-button_03.gif</normaloff>:/images/vs/help-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ResetpushButton">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>760</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/exit-button_03.gif</normaloff>:/images/vs/exit-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>697</x>
+       <y>65</y>
+       <width>101</width>
+       <height>461</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="gl_gridLayout"/>
+    </widget>
+    <widget class="QPushButton" name="camFlowpushButton">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>Camera Flow</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/cam-flow_03.gif</normaloff>:/images/vs/cam-flow_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_9">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>340</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/cascade-button_03.gif</normaloff>:/images/vs/cascade-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_8">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>20</y>
+       <width>28</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>8</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/play-button_03.gif</normaloff>:/images/vs/play-button_03.gif</iconset>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>28</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="playBackImgpushButton_3">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>80</x>
+       <y>20</y>
+       <width>42</width>
+       <height>28</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="icon">
+      <iconset resource="resource.qrc">
+       <normaloff>:/images/vs/moviereel_03.gif</normaloff>:/images/vs/moviereel_03.gif</iconset>
+     </property>
+     <property name="flat">
+      <bool>false</bool>
+     </property>
+     <property name="fixedSize" stdset="0">
+      <size>
+       <width>42</width>
+       <height>28</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_4">
+     <property name="geometry">
+      <rect>
+       <x>5</x>
+       <y>60</y>
+       <width>171</width>
+       <height>481</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string>background-image: url(:/images/vs/background2_03.gif);</string>
+     </property>
+     <property name="title">
+      <string/>
+     </property>
+     <widget class="QTreeWidget" name="treeWidget">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>151</width>
+        <height>201</height>
+       </rect>
+      </property>
+      <column>
+       <property name="text">
+        <string>System Controls</string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>11</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="textAlignment">
+        <set>AlignHCenter|AlignVCenter|AlignCenter</set>
+       </property>
+       <property name="background">
+        <color>
+         <red>207</red>
+         <green>204</green>
+         <blue>212</blue>
+        </color>
+       </property>
+      </column>
+      <item>
+       <property name="text">
+        <string>Camera Tree </string>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+        </font>
+       </property>
+       <property name="background">
+        <brush brushstyle="NoBrush">
+         <color alpha="255">
+          <red>0</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </property>
+       <item>
+        <property name="text">
+         <string>Lobby</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cam 1</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 2</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 3</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 4</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Main Hall</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cam 5</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 6</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 7</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 8</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Garage</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cam 9</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 10</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 11</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 12</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Plaza</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cam 13</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 14</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 15</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 16</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+       </item>
+       <item>
+        <property name="text">
+         <string>Tables</string>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+         </font>
+        </property>
+        <item>
+         <property name="text">
+          <string>Cam 17</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 18</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 19</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cam 20</string>
+         </property>
+         <property name="font">
+          <font>
+           <family>Arial</family>
+          </font>
+         </property>
+        </item>
+       </item>
+      </item>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>230</y>
+        <width>151</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="title">
+       <string>Camera Controls</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>20</y>
+         <width>64</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Image</string>
+       </property>
+       <property name="fixedSize" stdset="0">
+        <size>
+         <width>96</width>
+         <height>64</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_3">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>85</x>
+         <y>60</y>
+         <width>64</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Codec</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_4">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>84</x>
+         <y>98</y>
+         <width>64</width>
+         <height>32</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>10</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Analytics</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>82</width>
+         <height>82</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="resource.qrc">
+         <normaloff>:/images/vs/button_circle.jpg</normaloff>:/images/vs/button_circle.jpg</iconset>
+       </property>
+       <property name="fixedSize" stdset="0">
+        <size>
+         <width>82</width>
+         <height>82</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>370</y>
+        <width>151</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Arial</family>
+        <pointsize>11</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="title">
+       <string>Playback Controls</string>
+      </property>
+      <widget class="QPushButton" name="pushButton_5">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>20</y>
+         <width>24</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="resource.qrc">
+         <normaloff>:/images/vs/reverse-playbackbutton_03.gif</normaloff>:/images/vs/reverse-playbackbutton_03.gif</iconset>
+       </property>
+       <property name="fixedSize" stdset="0">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_14">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>20</y>
+         <width>24</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="resource.qrc">
+         <normaloff>:/images/vs/stop-playbackbutton_03.gif</normaloff>:/images/vs/stop-playbackbutton_03.gif</iconset>
+       </property>
+       <property name="fixedSize" stdset="0">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_15">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>60</x>
+         <y>20</y>
+         <width>24</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="resource.qrc">
+         <normaloff>:/images/vs/pause-playbackbutton_03.gif</normaloff>:/images/vs/pause-playbackbutton_03.gif</iconset>
+       </property>
+       <property name="fixedSize" stdset="0">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_16">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>90</x>
+         <y>21</y>
+         <width>24</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="resource.qrc">
+         <normaloff>:/images/vs/play-playbackbutton_03.gif</normaloff>:/images/vs/play-playbackbutton_03.gif</iconset>
+       </property>
+       <property name="fixedSize" stdset="0">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_18">
+       <property name="enabled">
+        <bool>true</bool>
+       </property>
+       <property name="geometry">
+        <rect>
+         <x>120</x>
+         <y>20</y>
+         <width>24</width>
+         <height>24</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="resource.qrc">
+         <normaloff>:/images/vs/forward-playbackbutton_03.gif</normaloff>:/images/vs/forward-playbackbutton_03.gif</iconset>
+       </property>
+       <property name="fixedSize" stdset="0">
+        <size>
+         <width>24</width>
+         <height>24</height>
+        </size>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="logopushButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>430</y>
+        <width>151</width>
+        <height>41</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="icon">
+       <iconset resource="resource.qrc">
+        <normaloff>:/images/vs/logo.jpg</normaloff>:/images/vs/logo.jpg</iconset>
+      </property>
+      <property name="fixedSize" stdset="0">
+       <size>
+        <width>150</width>
+        <height>200</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>60</y>
+       <width>221</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::Box</enum>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource.qrc">:/images/vs/sun1.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>60</y>
+       <width>211</width>
+       <height>221</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource.qrc">:/images/vs/sun2.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>290</y>
+       <width>221</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource.qrc">:/images/vs/sun3.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>290</y>
+       <width>211</width>
+       <height>241</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap resource="resource.qrc">:/images/vs/sun1.jpg</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>3</width>
+     <height>18</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
