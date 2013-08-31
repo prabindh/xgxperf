@@ -22,3 +22,5 @@ contains(QT_CONFIG, webkit): SUBDIRS += browserlib
 
 contains(QT_CONFIG, opengles2): SUBDIRS += glwidgetlib 
 
+target.path = $$[QT_INSTALL_EXAMPLES]/xgxperf
+INSTALLS += target

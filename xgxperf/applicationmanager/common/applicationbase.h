@@ -57,6 +57,7 @@
 
 #ifndef Q_WS_WIN
 #include "sys/time.h"
+#include "unistd.h"
 #endif
 
 //Toggle information display on top
